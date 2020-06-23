@@ -1,0 +1,173 @@
+/*********navigation******/	
+.navlayout {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+    color: #C690BF !important;
+    background-color: #000000;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.navlayout a:hover {
+	text-decoration: underline;
+}
+
+.navlayouta:focus {
+	border: 1px solid #9b5094;
+}
+
+.navlayout a:visited {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+    color: #C690BF !important;
+    background-color: #000000;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/***********typography and color******/
+.h1page {
+	font-size: 3.5em;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	text-align: center;
+	padding: 28px 0 20px 0;
+	filter: none;
+}
+
+.h1hero {
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+}
+
+.h2 {
+	text-align: center;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: rgb(253, 253, 253);
+	filter: none;
+}
+
+.h2about {
+	text-align: center;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #912781;
+	padding: 1% 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+.pabout {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #000000;
+	line-height: 1.5;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.quote {
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #912781;
+}
+
+.aboutpg{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+label {
+	color:  #C690BF;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 3% !important;
+}
+
+
+footer {
+	padding: 1%;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*******buttons*********/
+button {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+	font-weight: 800;
+	color: #000000;
+	background-color: #C690BF;
+	padding: 4%;
+	border-radius: 10% !important;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }  
+
+/*******img styling******/
+
+.hero {
+	padding: 20%;
+	background-image: url(../img/water_colors/freebird.jpg);
+	background-position: center 75%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: local;
+}
+
+.img {
+	padding-bottom: 5%;
+	transform: scale(0.90);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.img:hover {
+	transform: scale(1.03);
+	opacity: 1;
+}
+
+.fillerimg {
+	opacity: 0.2;
+	padding: 10%;
+}
+
+.imgwidth {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/******page layout****/
+
+.sectionpadding {
+	padding-top: 2%;
+}
+
+.areamargin {
+	margin-top: 2%;
+}
+
+.bottommargin {
+	margin-bottom: 4%;
+}
+
+.formlayout {
+	background-color: #212120;
+	padding-top: 3%;
+}
